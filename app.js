@@ -84,7 +84,8 @@ removeBtn.addEventListener('click',(e)=>{
     e.preventDefault();
     rootRef.child(_productId.value).remove();
     if(eklendiMi(eklenenler,_productId.value)==true)
-        alert(`Ürün listeden kaldırıldı.\nListenin güncellenmesi için sayfayı yenileyiniz...`);
+        //alert(`Ürün listeden kaldırıldı.\nListenin güncellenmesi için sayfayı yenileyiniz...`);
+        document.location.reload(true);
     else
         alert("Geçersiz kod");
 });
