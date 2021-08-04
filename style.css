@@ -1,0 +1,25 @@
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 400px;
+  border:solid 3px #ebebeb;
+  padding: 5rem;
+}
+
+button{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
